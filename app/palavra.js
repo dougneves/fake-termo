@@ -12,7 +12,7 @@ export default function Palavra({palavra, tentativas}) {
           }
         }
 
-        return <div><Tentativa palavra={palavra} tentativa={tentativa} /></div>
+        return <div key={tentativa}><Tentativa palavra={palavra} tentativa={tentativa} /></div>
       })}
   </div>
 }

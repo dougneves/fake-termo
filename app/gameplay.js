@@ -6,8 +6,6 @@ import Palavra from "./palavra"
 import words from "./words"
 import utils from "./utils"
 
-console.log(utils)
-
 function tentativaChanger(event, setTentativa) {
     setTentativa(utils.normalizeString(event.target.value))
 }

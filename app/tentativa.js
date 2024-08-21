@@ -6,12 +6,12 @@ export default function Tentativa({palavra, tentativa}) {
     return <>
         {letrasTentativa.map((letra, i) => {
           if (letra == letrasPalavra[i]) {
-            return <span className="green">{letra}</span>
+            return <span className="green" key={i}>{letra}</span>
           }
           if (letrasPalavra.includes(letra)) {
-            return <span className="yellow">{letra}</span>
+            return <span className="yellow"  key={i}>{letra}</span>
           }
-          return <span className="gray">{letra}</span>
+          return <span className="gray"  key={i}>{letra}</span>
         })}
     </>
 }

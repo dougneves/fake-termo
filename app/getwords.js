@@ -14,8 +14,6 @@ export default function GetWords({palavras, onStart}) {
     const ready = palavra1.length === palavra2.length &&
                   palavra1.length === palavra3.length &&
                   palavra1.length === palavra4.length
-
-    console.log(onStart)
     
     return <div>
         <h1>defina 4 palavras</h1>
