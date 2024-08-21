@@ -12,3 +12,43 @@ input {
   font-weight: 400;
   font-style: normal;  
 }
+
+div.tentativa {
+  text-align: center;
+  margin: auto;
+}
+
+input.tentativa {
+  font-size: 32px;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+span.burrice {
+  color: red;
+}
+
+span.green {
+  color: darkgreen;
+  background-color: lightgreen;
+}
+span.yellow {
+  color: darkgoldenrod;
+  background-color: lightgoldenrodyellow;
+}
+span.gray {
+  color: darkgray;
+  background-color: lightgray;
+}
+
+div.blocoTentativa {
+  font-size: 3rem;
+  letter-spacing: 12px;
+}
+
+div.blocosTentativa {
+  display: flex;
+  justify-content:space-around;
+  font-family: monospace;
+  font-weight: bold;  
+}
